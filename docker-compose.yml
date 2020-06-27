@@ -1,0 +1,18 @@
+version: '3.4'
+
+networks:
+  frontend:
+  backend:
+
+
+services:
+  catalog:
+    image: eventbrite/catalogapi
+    build:
+      context: .\eventcatalogAPI
+      dockerfile: Dockerfile
+  environment:
+   ExternalCatalogBaseUrl: http://localhost:6810
+    ports:
+      - "6810:80"
+ 

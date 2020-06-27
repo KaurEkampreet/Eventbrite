@@ -75,13 +75,13 @@ namespace EventCatalog.Data
         {
             return new List<EventLocation>()
             {
-               new EventLocation(){UserId=1,VenueName="Venue 1", Address="156th ave ne",City="Redmond",State="Washington",PostalCode=98052},
-               new EventLocation(){UserId=1,VenueName="Venue 2",Address="166th ave se",City="Bellevue",State="Washington",PostalCode=98053},
-               new EventLocation(){UserId=1,VenueName="Venue 3",Address="176th ave ne",City="Kirkland",State="Washington",PostalCode=98056},
-               new EventLocation(){UserId=1,VenueName="Venue 4",Address="26th ave ne",City="vegas",State="Las Vegas",PostalCode=98057},
-               new EventLocation(){UserId=2,VenueName="Venue 5",Address="15th ave se",City="BenzCircle",State="AndraPradesh",PostalCode=98059},
-               new EventLocation(){UserId=2,VenueName="Venue 6",Address="16th ave ne",City="Redmond",State="Washington",PostalCode=98060},
-               new EventLocation(){UserId=2,VenueName="Venue 7",Address="128th ave se",City="Bellevue",State="Washington",PostalCode=98005}
+               new EventLocation(){UserId=1,VenueName="Venue 1", Address="156th ave ne",City="Auburn",State="Washington",PostalCode=98198},
+               new EventLocation(){UserId=1,VenueName="Venue 2",Address="166th ave se",City="Bellevue",State="Nevada",PostalCode=98001},
+               new EventLocation(){UserId=1,VenueName="Venue 3",Address="253th ave ne",City="Kirkland",State="Washington",PostalCode=98056},
+               new EventLocation(){UserId=1,VenueName="Venue 4",Address="26th ave ne",City="vegas",State="LasVegas",PostalCode=98023},
+               new EventLocation(){UserId=2,VenueName="Venue 5",Address="12th ave se",City="Renton",State="California",PostalCode=98033},
+               new EventLocation(){UserId=2,VenueName="Venue 6",Address="13th ave ne",City="Redmond",State="Texas",PostalCode=98020},
+               new EventLocation(){UserId=2,VenueName="Venue 7",Address="118th ave se",City="Kent",State="Washington",PostalCode=98022}
            };
         }
         private static IEnumerable<EventsCatalog> GetEventsCatalogs()
